@@ -11,7 +11,7 @@ import { Container, Jumbo, Nav, Box, Line, Cover } from "./Styles"
 const torus = new THREE.SphereBufferGeometry(4, 32, 16)
 const material1 = new DistortionMaterial()
 const jumbo = {
-  "/": ["Zack Lee", "Creative Technologist"],
+  "/": ["Zack Lee", "@wenquai"],
 }
 
 function Shape({ geometry, material, args, textures, opacity, color, shadowScale = [9, 1.5, 1], ...props }) {
