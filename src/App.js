@@ -8,7 +8,7 @@ import { useLocation, Switch, Route } from "wouter"
 import DistortionMaterial from "./DistortionMaterial"
 import { Container, Jumbo, Nav, Box, Line, Cover } from "./Styles"
 
-const torus = new THREE.SphereBufferGeometry(4, 32, 16)
+const torus = new THREE.SphereBufferGeometry(3, 32, 16)
 const material1 = new DistortionMaterial()
 const jumbo = {
   "/": ["Zack Lee", "@wenquai"],
